@@ -16,7 +16,7 @@ public class DemoApplication {
 
     @RequestMapping("/")
     String home() {
-        return String.format("title: %s message: %s",title, "Hello World! test da luciano grippa modificato il 23/11/2021 ore 11:22");
+        return String.format("title: %s message: %s",title, "Hello World! test da luciano grippa modificato il 23/11/2021 ore 11:39 da vs code");
     }
 
     public static void main(String[] args) {
