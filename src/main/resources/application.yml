@@ -18,10 +18,10 @@ spring:
   # VIDEOMANAGE DATASOURCE DEFINITION
   #############################################################
   datasource:
-    url: ${dbconnection:jdbc:mysql://212.162.68.21:3306/videomanage?autoReconnect=true&useUnicode=true&createDatabaseIfNotExist=true&characterEncoding=utf-8&serverTimezone=UTC&useSSL=false}
+    url: ${dbconnection:jdbc:mysql://localhost:3306/videomanage?autoReconnect=true&useUnicode=true&createDatabaseIfNotExist=true&characterEncoding=utf-8&serverTimezone=UTC&useSSL=false}
     driverClassName: ${dbdriver:com.mysql.cj.jdbc.Driver}
-    username: ${dbusername:videomanage}
-    password: ${dbpassword:VIDEOmanage1}
+    username: ${dbusername:videomanage-docker}
+    password: ${dbpassword:VIDEODockerManage1}
     hikari:
       idle-timeout: 10000
       maximum-pool-size: 10
